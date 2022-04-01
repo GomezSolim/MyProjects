@@ -1,0 +1,13 @@
+table{
+    border-collapse: collapse;
+    
+}
+thead, td{
+    border: 1px solid blue;
+    padding: 1px;
+    
+}
+thead{
+    background-color: yellow;
+    text-align: center;
+}
