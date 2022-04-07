@@ -1,27 +1,33 @@
 body{
     background: #F3AC3C;
-    margin: 100px auto;
+    width: auto;
+    height: 1000px;
+    align-items: end;
+    align-content: space-around;
+    justify-content: center;
+    display: grid;
+    justify-items: stretch;
 }
 .grandbox{
+    background:#1A4341;
     width:200px;
     height:200px;
-    background:#1A4341;
-    margin-left: 100px;
-    position: absolute;
 }
 .moyenbox{
     width:100px;
     height:100px;
     background:#998235;
-    margin-left: 50px;
+    top: 100px;
+    left: 50px;
     bottom: 0px;
-    position: absolute;
+    position: relative;
 }
 .petitbox{
     width:50px;
     height:50px;
     background:#F3AC3C;
-    margin-left: 25px;
-    position: absolute;
+    top: 50px;
+    left: 25px;
+    position: relative;
     bottom: 0px;
 }
